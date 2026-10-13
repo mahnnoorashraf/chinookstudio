@@ -1,0 +1,17 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated exports may contain customer data
+exports/
+
+# Editor and test artifacts
+.vscode/
+.pytest_cache/
